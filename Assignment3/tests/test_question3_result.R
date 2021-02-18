@@ -1,0 +1,5 @@
+stopifnot(sum(grep("return", readLines("question3.R"))) > 0)
+stopifnot(sum(grep("Hufflepuff", readLines("question3.R"))) > 0)
+stopifnot(sum(grep("Ravenclaw", readLines("question3.R"))) > 0)
+stopifnot(sum(grep("Slytherin", readLines("question3.R"))) > 0)
+stopifnot(sum(grep("Gryffindor", readLines("question3.R"))) > 0)
