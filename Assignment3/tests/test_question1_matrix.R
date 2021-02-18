@@ -1,4 +1,4 @@
-stopifnot(length(grep("Hmisc", readLines("question1.R"), value = TRUE)) == 0)
+stopifnot(sum(grep("Hmisc", readLines("question1.R"))) == 0)
 
 source("question1.R")
 
