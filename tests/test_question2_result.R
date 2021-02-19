@@ -1,1 +1,1 @@
-stopifnot(sum(grep("84*", readLines("question1.R"))) + sum(grep("85*", readLines("question1.R"))) > 0)
+stopifnot(sum(grep("84*", readLines("question2.R"))) + sum(grep("85*", readLines("question2.R"))) > 0)
