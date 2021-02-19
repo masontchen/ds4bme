@@ -46,4 +46,4 @@ V. Similate 6,000 die rolls using `sample`. Put them in a matrix of size 1,000 x
 
 VI. Write a function `birthday` that calcualtes the probability at least two people in a room of `n` people (input by the user) have the same birthday. [Here's the wikipedia article on the birthday problem ](https://en.wikipedia.org/wiki/Birthday_problem). Create a plot of the probability by the number of people in the room. Submit the function as the file `question6.R`.
 
-VII Write a function `ppv` where a user inputs the `sensitivity`, `specificity` and `prevalance` associate with a diagnostic test and gives the positive predictive value. [The formula can be found here.](https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values). Submit the function as the file `question7.R`.
+VII Write a function `ppv` where a user inputs the `sensitivity`, `specificity` and `prevalence` associate with a diagnostic test and gives the positive predictive value. [The formula can be found here.](https://en.wikipedia.org/wiki/Positive_and_negative_predictive_values). Submit the function as the file `question7.R`.
