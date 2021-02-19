@@ -4,6 +4,6 @@ res = ppv(sensitivity=0.7, specificity=0.9, prevalence=0.01)
 sensitivity=0.7
 specificity=0.9
 prevalence=0.01
-gt = sensitivity * prevalence / (sensitivity * prevalence + (1 - specificity) * (1 - prevalence))
+gt = 0.06603774
 
-stopifnot(abs(gt - res) < 1e-10)
+stopifnot(round(gt, 3) == round(res, 3))
