@@ -1,11 +1,10 @@
 source("question6.R")
 res = birthday(30)
-q = 1 - (0:29)/365
-gt = 1 - prod(q)
+gt = 0.7063162
 
-stopifnot(abs(gt - res) < 1e-10)
+stopifnot(round(res, 3) == round(gt, 3))
 
 res = birthday(366)
 gt = 1.0
 
-stopifnot(abs(gt - res) < 1e-10)
+stopifnot(round(res, 3) == round(gt, 3))
